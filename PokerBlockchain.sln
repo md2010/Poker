@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokerBlockchain.Model", "PokerBlockchain.Model\PokerBlockchain.Model.csproj", "{73B86A11-0B16-4159-9EE2-4DA9388C0C02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokerBlockchain.Service", "PokerBlockchain.Service\PokerBlockchain.Service.csproj", "{9881BEB8-7DC8-4258-BCBC-45BF20ED3282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerBlockchain.WebAPI", "PokerBlockchain.WebAPI\PokerBlockchain.WebAPI.csproj", "{1C02D657-B1C6-4FE2-AE1D-49A45BB47CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73B86A11-0B16-4159-9EE2-4DA9388C0C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B86A11-0B16-4159-9EE2-4DA9388C0C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B86A11-0B16-4159-9EE2-4DA9388C0C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B86A11-0B16-4159-9EE2-4DA9388C0C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9881BEB8-7DC8-4258-BCBC-45BF20ED3282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9881BEB8-7DC8-4258-BCBC-45BF20ED3282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9881BEB8-7DC8-4258-BCBC-45BF20ED3282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9881BEB8-7DC8-4258-BCBC-45BF20ED3282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C02D657-B1C6-4FE2-AE1D-49A45BB47CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C02D657-B1C6-4FE2-AE1D-49A45BB47CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C02D657-B1C6-4FE2-AE1D-49A45BB47CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C02D657-B1C6-4FE2-AE1D-49A45BB47CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DECA794-BCB7-4C6D-93B6-6407C21D3823}
+	EndGlobalSection
+EndGlobal

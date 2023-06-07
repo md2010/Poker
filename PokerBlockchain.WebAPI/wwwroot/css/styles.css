@@ -1,0 +1,287 @@
+body {
+  background-color: #3e4a3d; /* Set the background color to black */
+}
+
+.winner-message {
+  width: 100%;
+  font-size: x-large;
+  text-align: center;
+  color: #f4fbf3;
+}
+
+.title {
+  width: 100%;
+  font-size: x-large;
+  text-align: center;
+  color: #f4fbf3;
+}
+
+.table-background {
+  background-image: url("../img/holdem-poker-layout-6-green.png");
+  background-repeat: no-repeat;
+  background-size: 100%; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  max-width: 1100px;
+  max-height: 600px;
+  min-width: 1100px;
+  min-height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Set the z-index to -1 to place the background image behind other content */
+  text-align: center; /* Center the child div horizontally */
+  display: flex;
+}
+
+#dealer {
+  position: absolute;
+  max-width: 120px;
+  min-width: 120px;
+  left: calc(550px - 60px);
+  top: 35px;
+}
+
+.player-name {
+  font-size: large;
+  text-align: center;
+  color: #f4fbf3;
+}
+
+.dealer-btn {
+  color: #fff;
+  background-color: #2f4858;
+  border-color: #2f4858;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.dealer-btn:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.dealer-btn:disabled {
+    color: #fff;
+    background-color: #677987;
+    border-color: #677987;
+  }
+
+#dealer-cards-table-1 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 250px;
+  left: 315px;
+}
+
+#dealer-cards-table-2 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 250px;
+  left: 415px;
+}
+#dealer-cards-table-3 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 250px;
+  left: 515px;
+}
+#dealer-cards-table-4 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 250px;
+  left: 615px;
+}
+#dealer-cards-table-5 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 250px;
+  left: 715px;
+}
+
+#player1 {
+  position: absolute;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 86px;
+  max-height: 86px;
+  top: 300px;
+}
+
+#player1-card-1 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 400px; /* player4 top + 14px + height */
+  left: 30px;
+}
+
+#player1-card-2 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 400px; /* player4 top + 14px + height */
+  left: 100px;
+}
+
+#player2 {
+  position: absolute;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 86px;
+  max-height: 86px;
+  left: calc(400px - 100px);
+  top: 420px;
+}
+
+#player2-card-1 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 520px;
+  left: calc(400px - 100px + 30px);
+}
+
+#player2-card-2 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 520px;
+  left: calc(400px);
+}
+
+#player3 {
+  position: absolute;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 86px;
+  max-height: 86px;
+  left: calc(700px - 100px);
+  top: 420px;
+}
+
+#player3-card-1 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 520px;
+  left: calc(700px - 100px + 30px);
+}
+
+#player3-card-2 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 520px;
+  left: calc(700px);
+}
+
+#player4 {
+  position: absolute;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 86px;
+  max-height: 86px;
+  left: calc(1000px - 100px);
+  top: 300px;
+}
+
+#player4-card-1 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 400px; /* player4 top + 14px + height */
+  left: calc(1000px - 70px);
+}
+
+#player4-card-2 {
+  background-image: url("../img/card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Set the background image size to 60% of the viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  max-width: 70px;
+  max-height: 100px;
+  min-width: 70px;
+  min-height: 100px;
+  top: 400px; /* player4 top + 14px + height */
+  left: calc(1000px);
+}

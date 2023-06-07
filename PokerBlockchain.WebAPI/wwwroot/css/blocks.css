@@ -1,0 +1,45 @@
+body {
+  background-color: #3e4a3d; /* Set the background color to black */
+}
+
+.block-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: start;
+}
+
+.block {
+  width: 400px;
+  border: 1px solid #f9f9f9;
+  padding: 20px;
+  margin: 15px;
+  background-color: #f9f9f9;
+}
+
+.block h2 {
+  margin-top: 0;
+}
+
+.block label {
+  font-weight: bold;
+}
+
+.transactions {
+  margin-top: 10px;
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px !important;
+}
+
+li {
+    word-wrap: break-word;
+}
+
+summary {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}

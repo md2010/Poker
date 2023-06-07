@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../js/poker.js"></script>
+    <title>Poker blockchain</title>
+  </head>
+  <body>
+    <div>
+      <div class="table-background">
+        <div class="title">
+          <h1 id="title-and-winner">Poker Blokchain</h1>
+          <p><span id="dealer-is-playing">> </span> <span id="dealer-name-and-amount">dealer: 0$</span></p>
+          <button id="deal-btn" class="dealer-btn">DEAL</button>
+          <button id="reveal-btn" class="dealer-btn" disabled>REVEAL</button>
+        </div>
+        <div id="player1">
+          <p class="player-name"><span id="player1-is-playing" hidden>> </span> <span id="player-1-name-and-amount">player1: 5$</span></p>
+          <div class="player-options">
+            <button class="dealer-btn" id="player1-fold" disabled>FOLD</button>
+            <button class="dealer-btn" id="player1-pay" disabled>PAY</button>
+          </div>
+        </div>
+        <div id="player2">
+          <p class="player-name"><span id="player2-is-playing" hidden>> </span> <span id="player-2-name-and-amount">player2: 5$</span></p>
+          <div class="player-options">
+            <button class="dealer-btn" id="player2-fold" disabled>FOLD</button>
+            <button class="dealer-btn" id="player2-pay" disabled>PAY</button>
+          </div>
+        </div>
+        <div id="player3">
+          <p class="player-name"><span id="player3-is-playing" hidden>> </span> <span id="player-3-name-and-amount">player2: 5$</span></p>
+          <div class="player-options">
+            <button class="dealer-btn" id="player3-fold" disabled>FOLD</button>
+            <button class="dealer-btn" id="player3-pay" disabled>PAY</button>
+          </div>
+        </div>
+        <div id="player4">
+          <p class="player-name"><span id="player4-is-playing" hidden>> </span> <span id="player-4-name-and-amount">player3: 5$</span></p>
+          <div class="player-options">
+            <button class="dealer-btn" id="player4-fold" disabled>FOLD</button>
+            <button class="dealer-btn" id="player4-pay" disabled>PAY</button>
+          </div>
+
+        </div>
+        <div id="dealer-cards-table-1"></div>
+        <div id="dealer-cards-table-2"></div>
+        <div id="dealer-cards-table-3"></div>
+        <div id="dealer-cards-table-4"></div>
+        <div id="dealer-cards-table-5"></div>
+
+        <div id="player1-card-1"></div>
+        <div id="player1-card-2"></div>
+
+        <div id="player2-card-1"></div>
+        <div id="player2-card-2"></div>
+
+        <div id="player3-card-1"></div>
+        <div id="player3-card-2"></div>
+
+        <div id="player4-card-1"></div>
+        <div id="player4-card-2"></div>
+      </div>
+    </div>
+    <button class="dealer-btn" id="display-blocks" onclick="displayBlocks()">Display blocks</button>
+  </body>
+</html>
