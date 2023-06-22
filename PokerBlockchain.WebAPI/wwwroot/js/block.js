@@ -49,7 +49,7 @@ $(document).ready(function () {
         blocks.forEach(function (block) {
             let blockDiv = $("<div>").addClass("block");
 
-            $("<h2>").text("Block" + block.index).appendTo(blockDiv);
+            $("<h2>").text("Block " + block.index).appendTo(blockDiv);
 
             $("<label>").text("Index: ").appendTo(blockDiv);
             $("<span>").text(block.index).appendTo(blockDiv);

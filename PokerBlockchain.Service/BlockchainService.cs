@@ -49,7 +49,7 @@ namespace PokerBlockchain.Service
             List<ITransaction> transactions = new List<ITransaction>();
             for(int i = 1; i <= 4; i++)
             {
-                transactions.Add(new Model.Transaction(this.PlayerAddresses[0], this.PlayerAddresses[i], 50));
+                transactions.Add(new Model.Transaction(this.PlayerAddresses[0], this.PlayerAddresses[i], 30));
             }
 
             IBlock block = new Block(0, DateTime.Now, "0", 1, transactions);
